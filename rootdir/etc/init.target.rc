@@ -215,9 +215,9 @@ on property:init.svc.zygote=restarting && property:sys.qcom.thermalcfg=/vendor/e
 #    class core
 #    oneshot
 #
-service adsprpcd /system/vendor/bin/adsprpcd
+service vendor.adsprpcd /system/vendor/bin/adsprpcd
    class main
-   user media
+   user system
    group media
    writepid /dev/cpuset/system-background/tasks
 
