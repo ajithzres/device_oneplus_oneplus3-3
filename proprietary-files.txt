@@ -71,6 +71,10 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
+# libaudioparsers from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+-vendor/lib/libaudioparsers.so
+-vendor/lib64/libaudioparsers.so
+
 # Bluetooth
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
